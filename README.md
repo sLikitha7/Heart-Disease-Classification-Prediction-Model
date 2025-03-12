@@ -9,7 +9,7 @@ This project aims to classify **heart disease risk** based on multiple health in
   - **Demographic Data:** Age, Sex
   - **Medical Indicators:** Blood pressure, Cholesterol, Resting ECG results, Max heart rate, ST segment, Thalassemia
   - **Lifestyle & Symptoms:** Chest pain type, Exercise-induced angina, Oldpeak (ST depression)
-  - **Target Variable:** `heart_disease` (1 = Disease, 0 = No Disease)
+  - **Target Variable:** `heart_disease` (1 = No Disease,2 = Disease)
 
 ## 🚀 Project Workflow
 ### **1️⃣ Data Preprocessing**
