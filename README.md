@@ -1,9 +1,9 @@
-# 🏥 Heart Disease Classification Prediction Model
+#  Heart Disease Classification Prediction Model
 
-## 📌 Project Overview
+##  Project Overview
 This project aims to classify **heart disease risk** based on multiple health indicators using machine learning models. The analysis was conducted in **Google Colab**, leveraging the **dataset_heart_csv** dataset. The goal is to provide insights into **key risk factors** and build an **accurate predictive model** to assist in early diagnosis.
 
-## 🗂️ Dataset Information
+##  Dataset Information
 - **File Name:** `dataset_heart_csv`
 - **Features Include:**
   - **Demographic Data:** Age, Sex
@@ -11,7 +11,7 @@ This project aims to classify **heart disease risk** based on multiple health in
   - **Lifestyle & Symptoms:** Chest pain type, Exercise-induced angina, Oldpeak (ST depression)
   - **Target Variable:** `heart_disease` (1 = No Disease,2 = Disease)
 
-## 🚀 Project Workflow
+##  Project Workflow
 ### **1️⃣ Data Preprocessing**
 - Loaded dataset using `pandas`
 - Checked for missing values and handled them accordingly
@@ -44,7 +44,7 @@ This project aims to classify **heart disease risk** based on multiple health in
 - **Performance Comparison:** Evaluated different models and selected the best-performing one
 - **Final Feature Importance Plot:** Identified the most significant predictors
 
-## 📊 Key Findings
+##  Key Findings
 - **Strongest Predictors:** 
   - **Chest Pain Type**
   - **Thalassemia**
@@ -53,14 +53,14 @@ This project aims to classify **heart disease risk** based on multiple health in
 - **Best Performing Model:** Logistic Regression Performs Best: With 90.7% accuracy and 93.9% recall, it effectively classifies heart disease cases while minimizing false negatives.
 - **Accuracy Achieved:** 90.7% 
 
-## 💻 How to Run the Project
-### **1️⃣ Setup Google Colab Environment**
+##  How to Run the Project
+### **1️ Setup Google Colab Environment**
 - Upload `dataset_heart_csv` to Colab
 - Install necessary libraries:
   ```bash
   pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 
-## 2️⃣ Run the Notebook
+## 2️ Run the Notebook
 
 1. Open [Google Colab](https://colab.research.google.com/).
 2. Upload the `dataset_heart_csv` file.
@@ -89,7 +89,7 @@ This project aims to classify **heart disease risk** based on multiple health in
 - **Model Performance Comparison**: Use bar charts to compare models based on accuracy and recall.
 - **Model Interpretation**: Identify the best-performing classification approach based on these metrics.
 
-## 🛠️ Future Improvements
+##  Future Improvements
 
 - **Optimize Hyperparameters**: Implement Bayesian Optimization for better performance.
 - **Deploy as a Web App**: Build a Flask/FastAPI API for real-time disease prediction.
